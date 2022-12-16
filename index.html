@@ -1,0 +1,115 @@
+<html>
+<head>
+ <title>Personal Data</title></head>
+ <style>
+    #div1{
+        background-color:rgb(77, 77, 224);
+        width:5.5%;
+        height: 2.5cm;
+        position: relative;
+        top: 5%;
+        left: 2%;
+        z-index: 2;
+    }
+    #div2{
+        background-color: orange;
+        width: 98%;
+        position: relative;
+        left: 1%;
+
+    }
+    #div3{
+        background-color:rgb(7, 98, 110);
+        width:7%;
+        position: relative;
+         left: 20px;
+         top:2%;
+         z-index: 2;
+      }
+         #div4{
+        background-color:rgb(168, 48, 48);
+        width:100%;
+        height:99%;
+        position: relative;
+        top: 1%;
+
+    }
+ </style>
+<body >
+    <div id="div3"> presonal data </div>
+    <div id="div4">
+   
+    <div id="div1"> <br><br>  your name</div>
+
+    <form >
+        <div id="div2">
+
+     <table >
+        <tr> <br><br>
+            <td>
+                <label for="firstname">first name</label>
+            </td> <td>:</td>
+            <td> <input id="firstname" required type="text" name="firstname"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lastname">last name</label>
+            </td> <td>:</td>
+            <td> <input id="lastname" required type="text" name="lastname"></td>
+        </tr>
+    </table>  </div>
+    <br><br><br><br>
+    <table>
+        <tr>
+            <td>
+                <label for="number">your phone</label>
+            </td> <td>:</td>
+            <td> <input id="number" required type="number" name="number"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">email</label>
+            </td> <td>:</td>
+            <td> <input id="email" required type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">password</label>
+            </td> <td>:</td>
+            <td> <input id="password" required type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password"> re-password</label>
+            </td> <td>:</td>
+            <td> <input id="password" required type="password" name="re-password"></td>
+        </tr>
+    </table>
+    <br><br>
+    <input type="radio" id="male"value="male"name="gender">
+    <label for="male">male</label> <br>
+    <input type="radio" id="female"value="female"name="gender">
+    <label for="female">female</label> <br> <br> <br>
+    <input type="checkbox" id="student" value="student"name="state">
+    <label for="student">student</label><br>
+    <input type="checkbox" id="gratuated" value="gratuated"name="state">
+    <label for="gratuated">gratuated</label> <br>
+    <select name="country" id="country">
+        <optgroup label="egypt">
+            <option value="cairo">cairo</option>
+            <option value="alex">alex</option>
+        </optgroup>
+        <optgroup label="palestine">
+            <option value="nabuls">nabuls</option>
+            <option value="gaza">gaza</option>
+        </optgroup>
+        <optgroup label="sudan">
+            <option value="nayla">nayla</option>
+            <option value="khartum">khartum</option>
+        </optgroup>
+    </select><br>
+    <button><img src="1.jpg" width="150"></button>
+</form>
+</div>
+</body>
+</html>
